@@ -23,7 +23,11 @@ export default function AdSenseAd({
     try {
       // Check if adsbygoogle is available
       if (typeof window !== 'undefined' && (window as any).adsbygoogle) {
-        ((window as any).adsbygoogle = (window as any).adsbygoogle || []).push({})
+        try {
+          ((window as any).adsbygoogle = (window as any).adsbygoogle || []).push({})
+        } catch (pushError) {
+          console.error('AdSense push error:', pushError)
+        }
       }
     } catch (error) {
       console.error('AdSense error:', error)

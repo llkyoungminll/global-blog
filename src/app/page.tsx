@@ -78,13 +78,21 @@ export default function HomePage() {
             {posts.length > 0 ? (
               posts.map((post) => (
                 <article key={post.slug} className="card group">
+                  {/* 이미지 에러 방지를 위한 조건부 렌더링 수정 */}
                   {post.image && (
-                    <div className="relative h-48 mb-4 overflow-hidden rounded-lg">
+                    <div className="relative h-48 mb-4 overflow-hidden rounded-lg bg-gray-200">
                       <Image
                         src={post.image}
                         alt={post.title}
                         fill
                         className="object-cover group-hover:scale-105 transition-transform duration-300"
+                        onError={(e) => {
+                          // 이미지 로드 실패 시 숨김 처리
+                          const target = e.target as HTMLElement;
+                          if (target.parentElement) {
+                            target.parentElement.style.display = 'none';
+                          }
+                        }}
                       />
                     </div>
                   )}
@@ -213,8 +221,8 @@ export default function HomePage() {
             <div>
               <h4 className="font-semibold mb-4">Legal</h4>
               <ul className="space-y-2 text-gray-300">
-                <li><Link href="/privacy" className="hover:text-white">Privacy Policy</Link></li>
-                <li><Link href="/terms" className="hover:text-white">Terms of Service</Link></li>
+                <li><Link href="/privacy-policy" className="hover:text-white">Privacy Policy</Link></li>
+                <li><Link href="/terms-of-service" className="hover:text-white">Terms of Service</Link></li>
                 <li><Link href="/disclaimer" className="hover:text-white">Disclaimer</Link></li>
               </ul>
             </div>

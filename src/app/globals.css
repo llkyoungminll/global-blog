@@ -150,9 +150,11 @@
     animation: slideUp 0.3s ease-out;
   }
   
-  /* Text utilities */
+  /* Text utilities - 문제가 되는 부분 수정 */
   .text-balance {
-    text-wrap: balance;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    /* text-wrap: balance; - 브라우저 호환성 문제로 주석 처리 */
   }
   
   /* Responsive utilities */

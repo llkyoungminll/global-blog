@@ -28,10 +28,14 @@ export default function Newsletter() {
         
         // Track newsletter signup for analytics
         if (typeof window !== 'undefined' && (window as any).gtag) {
-          (window as any).gtag('event', 'newsletter_signup', {
-            event_category: 'engagement',
-            event_label: 'footer_newsletter',
-          })
+          try {
+            (window as any).gtag('event', 'newsletter_signup', {
+              event_category: 'engagement',
+              event_label: 'footer_newsletter',
+            })
+          } catch (trackingError) {
+            console.error('Analytics tracking error:', trackingError)
+          }
         }
       } else {
         throw new Error('Subscription failed')
@@ -39,6 +43,7 @@ export default function Newsletter() {
     } catch (error) {
       setStatus('error')
       setMessage('Something went wrong. Please try again.')
+      console.error('Newsletter subscription error:', error)
     }
   }
 
@@ -93,7 +98,7 @@ export default function Newsletter() {
           <div className="mt-6 text-sm text-primary-200">
             <p>
               By subscribing, you agree to our{' '}
-              <a href="/privacy" className="underline hover:text-white">
+              <a href="/privacy-policy" className="underline hover:text-white">
                 Privacy Policy
               </a>{' '}
               and consent to receive updates from our company.

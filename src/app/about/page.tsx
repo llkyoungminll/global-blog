@@ -97,7 +97,7 @@ export default function AboutPage() {
                   <div className="text-3xl mb-4">⚖️</div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-3">Legal & Compliance</h3>
                   <p className="text-gray-600">
-                    Essential legal guidance for personal injury, medical malpractice, workers' compensation, 
+                    Essential legal guidance for personal injury, medical malpractice, workers&apos; compensation, 
                     and business legal matters.
                   </p>
                 </div>
