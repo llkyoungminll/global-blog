@@ -17,12 +17,47 @@ Medical malpractice occurs when healthcare professionals fail to provide the sta
 
 ## TL;DR — Quick Comparison
 
-| Law Firm Type | Best For | Avg. Settlement | Free Consultation | CTA |
-|---------------|----------|-----------------|-------------------|-----|
-| Large Firms   | Complex cases | $500K-$2M+ | ✅ Yes | [Get Free Consultation](#) |
-| Boutique Firms| Specialized cases | $200K-$800K | ✅ Yes | [Find Specialist](#) |
-| Solo Practitioners | Personal attention | $100K-$500K | ✅ Yes | [Contact Lawyer](#) |
-| Online Platforms | Quick matching | Varies | ✅ Yes | [Match Now](#) |
+<table style="width:100%; border-collapse:collapse; text-align:center; margin:20px 0;">
+  <thead>
+    <tr style="background:#f8f9fa;">
+      <th style="padding:12px; border:1px solid #dee2e6; font-weight:600;">Law Firm Type</th>
+      <th style="padding:12px; border:1px solid #dee2e6; font-weight:600;">Best For</th>
+      <th style="padding:12px; border:1px solid #dee2e6; font-weight:600;">Avg. Settlement</th>
+      <th style="padding:12px; border:1px solid #dee2e6; font-weight:600;">Free Consultation</th>
+      <th style="padding:12px; border:1px solid #dee2e6; font-weight:600;">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#fff;">
+      <td style="padding:12px; border:1px solid #dee2e6; font-weight:500;">Large Firms</td>
+      <td style="padding:12px; border:1px solid #dee2e6;">Complex cases</td>
+      <td style="padding:12px; border:1px solid #dee2e6; color:#28a745; font-weight:600;">$500K-$2M+</td>
+      <td style="padding:12px; border:1px solid #dee2e6; color:#28a745;">✅ Yes</td>
+      <td style="padding:12px; border:1px solid #dee2e6;"><a href="#" style="background:#007bff; color:white; padding:6px 12px; text-decoration:none; border-radius:4px; font-weight:500;">Get Free Consultation</a></td>
+    </tr>
+    <tr style="background:#f8f9fa;">
+      <td style="padding:12px; border:1px solid #dee2e6; font-weight:500;">Boutique Firms</td>
+      <td style="padding:12px; border:1px solid #dee2e6;">Specialized cases</td>
+      <td style="padding:12px; border:1px solid #dee2e6; color:#28a745; font-weight:600;">$200K-$800K</td>
+      <td style="padding:12px; border:1px solid #dee2e6; color:#28a745;">✅ Yes</td>
+      <td style="padding:12px; border:1px solid #dee2e6;"><a href="#" style="background:#28a745; color:white; padding:6px 12px; text-decoration:none; border-radius:4px; font-weight:500;">Find Specialist</a></td>
+    </tr>
+    <tr style="background:#fff;">
+      <td style="padding:12px; border:1px solid #dee2e6; font-weight:500;">Solo Practitioners</td>
+      <td style="padding:12px; border:1px solid #dee2e6;">Personal attention</td>
+      <td style="padding:12px; border:1px solid #dee2e6; color:#ffc107; font-weight:600;">$100K-$500K</td>
+      <td style="padding:12px; border:1px solid #dee2e6; color:#28a745;">✅ Yes</td>
+      <td style="padding:12px; border:1px solid #dee2e6;"><a href="#" style="background:#ffc107; color:#212529; padding:6px 12px; text-decoration:none; border-radius:4px; font-weight:500;">Contact Lawyer</a></td>
+    </tr>
+    <tr style="background:#f8f9fa;">
+      <td style="padding:12px; border:1px solid #dee2e6; font-weight:500;">Online Platforms</td>
+      <td style="padding:12px; border:1px solid #dee2e6;">Quick matching</td>
+      <td style="padding:12px; border:1px solid #dee2e6; color:#6c757d; font-weight:600;">Varies</td>
+      <td style="padding:12px; border:1px solid #dee2e6; color:#28a745;">✅ Yes</td>
+      <td style="padding:12px; border:1px solid #dee2e6;"><a href="#" style="background:#6c757d; color:white; padding:6px 12px; text-decoration:none; border-radius:4px; font-weight:500;">Match Now</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ## When You Need a Medical Malpractice Lawyer
 
@@ -32,14 +67,35 @@ Medical malpractice occurs when healthcare professionals fail to provide the sta
 - Medication errors causing serious harm
 - Emergency room misdiagnosis of life-threatening conditions
 
-**Case Study 1:** Sarah's Story
-Sarah experienced a delayed cancer diagnosis due to misread test results. Her medical malpractice lawyer secured a $1.2M settlement covering medical expenses, lost wages, and pain and suffering. The case took 18 months but provided financial security for her family.
+## 📊 Real Case Studies & Settlement Examples
 
-**Case Study 2:** Michael's Surgical Error
-Michael underwent routine gallbladder surgery, but the surgeon accidentally cut his bile duct. After 6 months of complications and additional surgeries, Michael's medical malpractice attorney negotiated a $850K settlement. The key was proving the surgeon deviated from standard surgical practices.
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
 
-**Case Study 3:** Jennifer's Birth Injury
-Jennifer's baby suffered oxygen deprivation during delivery due to delayed C-section. The resulting cerebral palsy required lifelong care. Her lawyer secured a $2.1M structured settlement ensuring the child's medical needs are covered for life.
+<div style="border: 1px solid #dee2e6; border-radius: 8px; padding: 20px; background: #f8f9fa;">
+<h4 style="color: #dc3545; margin-top: 0;">Case Study 1: Sarah's Delayed Diagnosis</h4>
+<p><strong>Issue:</strong> Delayed cancer diagnosis due to misread test results</p>
+<p><strong>Timeline:</strong> 18 months</p>
+<p><strong>Settlement:</strong> <span style="color: #28a745; font-weight: bold; font-size: 1.2em;">$1,200,000</span></p>
+<p><strong>Coverage:</strong> Medical expenses, lost wages, pain & suffering</p>
+</div>
+
+<div style="border: 1px solid #dee2e6; border-radius: 8px; padding: 20px; background: #fff;">
+<h4 style="color: #fd7e14; margin-top: 0;">Case Study 2: Michael's Surgical Error</h4>
+<p><strong>Issue:</strong> Bile duct cut during routine gallbladder surgery</p>
+<p><strong>Timeline:</strong> 6 months</p>
+<p><strong>Settlement:</strong> <span style="color: #28a745; font-weight: bold; font-size: 1.2em;">$850,000</span></p>
+<p><strong>Key Factor:</strong> Proved surgeon deviated from standard practices</p>
+</div>
+
+<div style="border: 1px solid #dee2e6; border-radius: 8px; padding: 20px; background: #f8f9fa;">
+<h4 style="color: #6f42c1; margin-top: 0;">Case Study 3: Jennifer's Birth Injury</h4>
+<p><strong>Issue:</strong> Oxygen deprivation during delivery</p>
+<p><strong>Result:</strong> Cerebral palsy requiring lifelong care</p>
+<p><strong>Settlement:</strong> <span style="color: #28a745; font-weight: bold; font-size: 1.2em;">$2,100,000</span></p>
+<p><strong>Structure:</strong> Structured settlement for lifetime care</p>
+</div>
+
+</div>
 
 ## 🚨 Need Help Now? Get Free Consultation
 
@@ -689,19 +745,33 @@ Remember, successful medical malpractice cases require proving that a healthcare
 
 The road to justice in medical malpractice cases can be long and challenging, but with the right legal representation and a strong case, you can hold negligent healthcare providers accountable and secure the compensation you deserve for your injuries and losses.
 
-### Frequently Asked Questions
+## ❓ Frequently Asked Questions
 
-**Q: How much does it cost to hire a medical malpractice lawyer?**
-A: Most medical malpractice lawyers work on contingency, meaning you pay nothing unless they win your case. Fees typically range from 33-40% of any settlement or award.
+<div style="background: #f8f9fa; border-radius: 8px; padding: 20px; margin: 20px 0;">
 
-**Q: How long do medical malpractice cases take?**
-A: Most cases take 1-3 years to resolve, though complex cases can take longer. Factors affecting timeline include case complexity, court schedules, and settlement negotiations.
+<div style="margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #dee2e6;">
+<h4 style="color: #495057; margin-bottom: 10px;">💰 How much does it cost to hire a medical malpractice lawyer?</h4>
+<p style="margin: 0; color: #6c757d;">Most medical malpractice lawyers work on <strong>contingency basis</strong>, meaning you pay nothing unless they win your case. Fees typically range from <span style="color: #28a745; font-weight: bold;">33-40%</span> of any settlement or award.</p>
+</div>
 
-**Q: What if I can't afford the upfront costs of a medical malpractice case?**
-A: Many experienced medical malpractice lawyers will advance case costs and only recover them if the case is successful. Discuss cost arrangements during your consultation.
+<div style="margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #dee2e6;">
+<h4 style="color: #495057; margin-bottom: 10px;">⏰ How long do medical malpractice cases take?</h4>
+<p style="margin: 0; color: #6c757d;">Most cases take <span style="color: #007bff; font-weight: bold;">1-3 years</span> to resolve, though complex cases can take longer. Factors affecting timeline include case complexity, court schedules, and settlement negotiations.</p>
+</div>
 
-**Q: Can I sue if a doctor's treatment didn't work?**
-A: Not necessarily. Medical malpractice requires proving that the treatment fell below accepted medical standards, not just that it was unsuccessful. Poor outcomes don't automatically equal malpractice.
+<div style="margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #dee2e6;">
+<h4 style="color: #495057; margin-bottom: 10px;">💳 What if I can't afford the upfront costs?</h4>
+<p style="margin: 0; color: #6c757d;">Many experienced medical malpractice lawyers will <strong>advance case costs</strong> and only recover them if the case is successful. Discuss cost arrangements during your consultation.</p>
+</div>
 
-**Q: What if the doctor admits they made a mistake?**
-A: While admissions can be helpful, you still need to prove that the mistake caused your injuries and that you suffered damages. Consult with a lawyer even if there's an admission of error.
+<div style="margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #dee2e6;">
+<h4 style="color: #495057; margin-bottom: 10px;">🏥 Can I sue if a doctor's treatment didn't work?</h4>
+<p style="margin: 0; color: #6c757d;">Not necessarily. Medical malpractice requires proving that the treatment fell below <strong>accepted medical standards</strong>, not just that it was unsuccessful. Poor outcomes don't automatically equal malpractice.</p>
+</div>
+
+<div style="margin-bottom: 0;">
+<h4 style="color: #495057; margin-bottom: 10px;">✅ What if the doctor admits they made a mistake?</h4>
+<p style="margin: 0; color: #6c757d;">While admissions can be helpful, you still need to prove that the mistake caused your injuries and that you suffered damages. <strong>Consult with a lawyer</strong> even if there's an admission of error.</p>
+</div>
+
+</div>
