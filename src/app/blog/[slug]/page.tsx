@@ -200,7 +200,7 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
                     <span className="text-gray-600">Share this article:</span>
                     <div className="flex space-x-2">
                       <a
-                        href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(post.title)}&url=${encodeURIComponent(`https://your-domain.com/blog/${post.slug}`)}`}
+                        href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(post.title)}&url=${encodeURIComponent(`https://profitableblog.org/blog/${post.slug}`)}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors"
@@ -208,7 +208,7 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
                         Twitter
                       </a>
                       <a
-                        href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(`https://your-domain.com/blog/${post.slug}`)}`}
+                        href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(`https://profitableblog.org/blog/${post.slug}`)}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-800 transition-colors"
@@ -216,7 +216,7 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
                         LinkedIn
                       </a>
                       <a
-                        href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(`https://your-domain.com/blog/${post.slug}`)}`}
+                        href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(`https://profitableblog.org/blog/${post.slug}`)}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors"
@@ -281,7 +281,7 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
             "@type": "BlogPosting",
             "headline": post.title,
             "description": post.excerpt,
-            "image": post.image ? `https://your-domain.com${post.image}` : undefined,
+            "image": post.image ? `https://profitableblog.org${post.image}` : undefined,
             "author": {
               "@type": "Person",
               "name": post.author,
@@ -291,14 +291,14 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
               "name": "Global Insights",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://your-domain.com/images/logo.png"
+                "url": "https://profitableblog.org/images/logo.png"
               }
             },
             "datePublished": post.date,
             "dateModified": post.date,
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": `https://your-domain.com/blog/${post.slug}`
+              "@id": `https://profitableblog.org/blog/${post.slug}`
             }
           })
         }}

@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 import { getAllPosts } from '@/lib/blog'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://your-domain.com' // TODO: Replace with your actual domain
+  const baseUrl = 'https://profitableblog.org'
   
   // Get all blog posts
   const posts = getAllPosts()

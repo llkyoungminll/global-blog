@@ -82,6 +82,9 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
         
+        {/* Google Search Console Verification */}
+        <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE_HERE" />
+        
         {/* Google Analytics - Replace with your GA4 ID */}
         {process.env.NEXT_PUBLIC_GA_ID && (
           <>
@@ -111,7 +114,7 @@ export default function RootLayout({
               "@type": "Blog",
               "name": "Global Insights Blog",
               "description": "Expert insights and strategies for business, technology, and personal development",
-              "url": "https://your-domain.com",
+              "url": "https://profitableblog.org",
               "author": {
                 "@type": "Organization",
                 "name": "Global Insights Team"
@@ -121,7 +124,7 @@ export default function RootLayout({
                 "name": "Global Insights Blog",
                 "logo": {
                   "@type": "ImageObject",
-                  "url": "https://your-domain.com/images/logo.png"
+                  "url": "https://profitableblog.org/images/logo.png"
                 }
               }
             })
