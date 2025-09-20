@@ -1,7 +1,7 @@
 ---
 title: "DUI Attorney Cost and Selection Guide 2025: What to Expect"
 excerpt: "Learn about DUI attorney costs in 2025 and how to choose the right lawyer. Understand fees, what to expect, and how to find the best DUI defense attorney."
-date: "2025-02-01"
+date: "2025-09-19"
 category: "Legal Services"
 tags: ["DUI Attorney", "Legal Defense", "DUI Costs", "Criminal Defense", "Legal Advice"]
 image: "/images/blog/dui-attorney-cost-2025.jpg"

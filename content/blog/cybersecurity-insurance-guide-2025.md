@@ -1,7 +1,7 @@
 ---
 title: "Cybersecurity Insurance: Complete Business Guide 2025"
 excerpt: "Learn everything about cybersecurity insurance in 2025. Understand coverage, costs, and requirements. Protect your business from cyber threats and data breaches."
-date: "2025-02-02"
+date: "2025-09-20"
 category: "Insurance & Protection"
 tags: ["Cybersecurity Insurance", "Cyber Liability", "Data Breach Protection", "Business Security", "Risk Management"]
 image: "/images/blog/cybersecurity-insurance-2025.jpg"

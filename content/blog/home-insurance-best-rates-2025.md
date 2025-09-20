@@ -1,7 +1,7 @@
 ---
 title: "Home Insurance: How to Get the Best Rates in 2025"
 excerpt: "Learn how to get the best home insurance rates in 2025. Compare top companies, understand coverage options, and discover money-saving tips for homeowners."
-date: "2025-01-28"
+date: "2025-09-15"
 category: "Insurance & Protection"
 tags: ["Home Insurance", "Homeowners Insurance", "Property Insurance", "Insurance Rates", "Home Protection"]
 image: "/images/blog/home-insurance-rates-2025.jpg"

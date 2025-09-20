@@ -5,7 +5,7 @@ import AdSenseAd from '@/components/AdSenseAd'
 import Newsletter from '@/components/Newsletter'
 
 export default function HomePage() {
-  const posts = getAllPosts().slice(0, 6) // Get latest 6 posts
+  const posts = getAllPosts().slice(0, 12) // Get latest 12 posts for better content showcase
 
   return (
     <div className="min-h-screen">
