@@ -1,7 +1,7 @@
 ---
 title: "Health Insurance Plans Explained: Complete Comparison Guide 2025"
 excerpt: "Understand different types of health insurance plans - HMO, PPO, EPO, and HDHP. Compare costs, benefits, and find the best plan for your needs."
-date: "2025-01-10"
+date: "2025-05-10"
 category: "Health & Insurance"
 tags: ["Health Insurance", "Healthcare Plans", "Insurance Comparison", "Medical Coverage", "Healthcare Costs"]
 image: "/images/blog/health-insurance-plans-2024.jpg"

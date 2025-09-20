@@ -1,7 +1,7 @@
 ---
 title: "When to Hire a Personal Injury Lawyer: Complete Guide 2025"
 excerpt: "Learn when you need a personal injury lawyer, how to choose the right attorney, and what to expect from the legal process. Expert advice for accident victims."
-date: "2025-01-12"
+date: "2025-07-12"
 category: "Legal Services"
 tags: ["Personal Injury", "Legal Advice", "Accident Claims", "Lawyer Selection", "Legal Rights"]
 image: "/images/blog/personal-injury-lawyer-guide.jpg"

@@ -1,7 +1,7 @@
 ---
 title: "Best Investment Apps for Beginners in 2025: Complete Guide"
 excerpt: "Discover the top investment apps that make it easy for beginners to start investing with as little as $1. Compare features, fees, and benefits."
-date: "2025-01-18"
+date: "2025-06-18"
 category: "Finance & Investment"
 tags: ["Investment Apps", "Beginner Investing", "Stock Market", "Financial Technology", "Personal Finance"]
 image: "/images/blog/investment-apps-2024.jpg"
