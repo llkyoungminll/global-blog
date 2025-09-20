@@ -53,6 +53,15 @@ const nextConfig = {
           },
         ],
       },
+      {
+        source: '/ads.txt',
+        headers: [
+          {
+            key: 'Content-Type',
+            value: 'text/plain',
+          },
+        ],
+      },
     ];
   },
   
