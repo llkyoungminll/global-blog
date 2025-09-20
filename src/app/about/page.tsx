@@ -59,7 +59,7 @@ export default function AboutPage() {
 
             {/* AdSense Ad */}
             <div className="py-8">
-              <AdSenseAd slot="7806397374" format="auto" responsive="true" />
+              <AdSenseAd slot="7806397374" format="auto" fullWidthResponsive={true} />
             </div>
 
             {/* What We Cover */}
