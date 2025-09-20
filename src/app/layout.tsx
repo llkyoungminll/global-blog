@@ -83,7 +83,7 @@ export default function RootLayout({
         />
         
         {/* Google Search Console Verification */}
-        <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE_HERE" />
+        <meta name="google-site-verification" content="wmNiPo0b5dByM6lRLADcx4FpZts0NpxCebfcFYqCj_4" />
         
         {/* Google Analytics - Replace with your GA4 ID */}
         {process.env.NEXT_PUBLIC_GA_ID && (
