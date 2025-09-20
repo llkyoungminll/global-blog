@@ -2,13 +2,14 @@
 title: "Small Business Loans Guide 2025: How to Get Approved"
 excerpt: "Learn how to get approved for small business loans in 2025. Compare SBA loans, bank loans, and alternative funding options. Expert tips for loan approval."
 date: "2025-06-22"
+updated: "2025-09-21"
 category: "Finance & Investment"
 tags: ["Small Business Loans", "Business Financing", "SBA Loans", "Business Credit", "Entrepreneurship"]
 image: "/images/blog/small-business-loans-2025.jpg"
 author: "Carlos Rodriguez"
-seoTitle: "Small Business Loans 2025 - Complete Guide to Getting Approved"
-seoDescription: "Get approved for small business loans in 2025. Compare SBA loans, bank loans, and online lenders. Requirements, rates, and application tips."
-seoKeywords: ["small business loans", "SBA loans", "business financing", "small business funding", "business loan approval"]
+seoTitle: "Small Business Loans 2025: SBA vs Bank vs Online Lenders"
+seoDescription: "Get approved for small business loans in 2025. Compare SBA loans, bank loans, online lenders. Requirements, rates, approval tips."
+seoKeywords: ["small business loans 2025", "SBA loans vs bank loans", "business financing options", "business loan approval"]
 ---
 
 # Small Business Loans Guide 2025: How to Get Approved

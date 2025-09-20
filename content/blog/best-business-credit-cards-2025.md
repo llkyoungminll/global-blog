@@ -2,6 +2,7 @@
 title: "Best Business Credit Cards 2025: Compare Rewards and Benefits"
 excerpt: "Discover the best business credit cards for 2025. Compare cash back, travel rewards, and benefits from top issuers. Find the perfect card for your business needs."
 date: "2025-08-21"
+updated: "2025-09-21"
 category: "Finance & Investment"
 tags: ["Business Credit Cards", "Business Finance", "Credit Card Rewards", "Small Business", "Financial Tools"]
 image: "/images/blog/business-credit-cards-2025.jpg"
