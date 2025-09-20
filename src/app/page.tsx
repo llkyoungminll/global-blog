@@ -86,13 +86,6 @@ export default function HomePage() {
                         alt={post.title}
                         fill
                         className="object-cover group-hover:scale-105 transition-transform duration-300"
-                        onError={(e) => {
-                          // 이미지 로드 실패 시 숨김 처리
-                          const target = e.target as HTMLElement;
-                          if (target.parentElement) {
-                            target.parentElement.style.display = 'none';
-                          }
-                        }}
                       />
                     </div>
                   )}
