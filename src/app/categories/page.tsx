@@ -100,7 +100,7 @@ export default async function CategoriesPage() {
                   
                   <div className="mt-6 text-center">
                     <Link 
-                      href="/blog"
+                      href={`/blog?category=${encodeURIComponent(category)}`}
                       className="inline-block bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors"
                     >
                       View All {categoryPosts.length} Articles

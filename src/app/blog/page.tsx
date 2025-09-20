@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { getAllPosts } from "@/lib/blog";
 import AdSenseAd from "@/components/AdSenseAd";
+import BlogFilter from "@/components/BlogFilter";
 
 export const metadata = {
   title: "Blog - Global Insights | Expert Analysis and Business Strategies",
@@ -49,64 +50,18 @@ export default async function BlogPage() {
           <AdSenseAd slot="7806397374" format="auto" fullWidthResponsive={true} />
         </div>
 
-        {/* Blog Posts Grid */}
+        {/* Blog Filter and Posts */}
         <section className="container mx-auto px-4 py-12">
           <div className="mb-8">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">All Articles</h2>
-            <p className="text-lg text-gray-600">
+            <p className="text-lg text-gray-600 mb-6">
               Browse our complete collection of expert insights and proven strategies.
             </p>
           </div>
 
-          {posts.length > 0 ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {posts.map((post) => (
-                <article key={post.slug} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
-                  {post.image && (
-                    <div className="relative h-48 w-full">
-                      <Image
-                        src={post.image}
-                        alt={post.title}
-                        fill
-                        style={{ objectFit: 'cover' }}
-                        className="transition-transform duration-300 hover:scale-105"
-                      />
-                    </div>
-                  )}
-                  <div className="p-6">
-                    <div className="flex items-center text-sm text-gray-500 mb-3">
-                      <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-medium mr-2">
-                        {post.category}
-                      </span>
-                      <span>{post.date}</span>
-                      <span className="mx-2">•</span>
-                      <span>{post.readingTime}</span>
-                    </div>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-3 leading-tight">
-                      <Link href={`/blog/${post.slug}`} className="hover:text-blue-600 transition-colors duration-200">
-                        {post.title}
-                      </Link>
-                    </h3>
-                    <p className="text-gray-600 mb-4">
-                      {post.excerpt}
-                    </p>
-                    <Link href={`/blog/${post.slug}`} className="text-blue-600 hover:text-blue-800 font-medium flex items-center">
-                      Read More →
-                    </Link>
-                  </div>
-                </article>
-              ))}
-            </div>
-          ) : (
-            <div className="text-center py-12">
-              <h3 className="text-2xl font-semibold text-gray-900 mb-4">
-                No posts found
-              </h3>
-              <p className="text-gray-600">
-                Check back soon for new content!
-              </p>
-            </div>
-          )}
+          {/* Blog Filter Component */}
+          <BlogFilter posts={posts} />
+
         </section>
 
         {/* AdSense Ad */}
