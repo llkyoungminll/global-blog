@@ -120,7 +120,7 @@ export default function HomePage() {
                   Content Coming Soon!
                 </h3>
                 <p className="text-gray-600 mb-8">
-                  We're preparing amazing content for you. Check back soon!
+                  We&apos;re preparing amazing content for you. Check back soon!
                 </p>
                 <Link href="/blog" className="btn-primary">
                   View All Posts
