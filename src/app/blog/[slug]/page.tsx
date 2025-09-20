@@ -3,7 +3,7 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import { getPostBySlug, getAllPosts } from '@/lib/blog'
-import { InArticleAd, SidebarAd } from '@/components/AdSenseAd'
+import AdSenseAd, { InArticleAd, SidebarAd, PremiumAd } from '@/components/AdSenseAd'
 
 interface BlogPostPageProps {
   params: {
@@ -168,14 +168,29 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
                 )}
               </header>
 
+              {/* Premium Ad - Above Content */}
+              <div className="my-8">
+                <PremiumAd />
+              </div>
+
               {/* Article Content */}
               <div className="prose prose-lg max-w-none">
                 <div dangerouslySetInnerHTML={{ __html: post.content.replace(/\n/g, '<br>') }} />
               </div>
 
-              {/* In-Article Ad */}
+              {/* In-Article Ad - Mid Content */}
               <div className="my-12">
                 <InArticleAd />
+              </div>
+
+              {/* Bottom Ad - Before Footer */}
+              <div className="my-12">
+                <AdSenseAd 
+                  slot="7806397374"
+                  style={{ display: 'block', textAlign: 'center' }}
+                  format="auto"
+                  fullWidthResponsive={true}
+                />
               </div>
 
               {/* Article Footer */}

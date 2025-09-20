@@ -2,6 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
+/* AdSense Styling */
+.ad-container {
+  margin: 20px 0;
+  text-align: center;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #f9fafb;
+}
+
+.ad-label {
+  font-size: 12px;
+  color: #6b7280;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.adsense-mobile {
+  margin: 16px 0;
+}
+
+.adsense-desktop {
+  margin: 20px 0;
+}
+
+/* Responsive AdSense */
+@media (max-width: 768px) {
+  .ad-container {
+    margin: 16px 0;
+    padding: 8px;
+  }
+  
+  .adsense-desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .adsense-mobile {
+    display: none;
+  }
+}
+
 /* Custom base styles for better readability and SEO */
 @layer base {
   html {
