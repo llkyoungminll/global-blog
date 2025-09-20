@@ -64,7 +64,7 @@ export default async function CategoriesPage() {
 
         {/* AdSense Ad */}
         <div className="container mx-auto px-4 py-8">
-          <AdSenseAd slot="7806397374" format="auto" fullWidthResponsive={true} />
+          <AdSenseAd slot="6768957164" format="auto" fullWidthResponsive={true} />
         </div>
 
         {/* Categories Grid */}
@@ -114,7 +114,7 @@ export default async function CategoriesPage() {
 
         {/* AdSense Ad */}
         <div className="container mx-auto px-4 py-8">
-          <AdSenseAd slot="7806397374" format="auto" fullWidthResponsive={true} />
+          <AdSenseAd slot="6768957164" format="auto" fullWidthResponsive={true} />
         </div>
       </main>
 

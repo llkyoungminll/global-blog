@@ -186,7 +186,7 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
               {/* Bottom Ad - Before Footer */}
               <div className="my-12">
                 <AdSenseAd 
-                  slot="7806397374"
+                  slot="6768957164"
                   style={{ display: 'block', textAlign: 'center' }}
                   format="auto"
                   fullWidthResponsive={true}

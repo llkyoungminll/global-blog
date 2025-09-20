@@ -54,7 +54,7 @@ export default function HomePage() {
       {/* Featured Ad */}
       <div className="container-custom py-8">
         <AdSenseAd 
-          slot="1234567890"
+          slot="6768957164"
           style={{ display: 'block' }}
           format="auto"
           fullWidthResponsive={true}
@@ -135,7 +135,7 @@ export default function HomePage() {
       {/* In-Content Ad */}
       <div className="container-custom py-8">
         <AdSenseAd 
-          slot="0987654321"
+          slot="6768957164"
           style={{ display: 'block', textAlign: 'center' }}
           format="fluid"
           layoutKey="-6t+ed+2i-1n-4w"

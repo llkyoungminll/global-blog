@@ -48,7 +48,7 @@ export default async function BlogPage() {
 
         {/* AdSense Ad */}
         <div className="container mx-auto px-4 py-8">
-          <AdSenseAd slot="7806397374" format="auto" fullWidthResponsive={true} />
+          <AdSenseAd slot="6768957164" format="auto" fullWidthResponsive={true} />
         </div>
 
         {/* Blog Filter and Posts */}
@@ -69,7 +69,7 @@ export default async function BlogPage() {
 
         {/* AdSense Ad */}
         <div className="container mx-auto px-4 py-8">
-          <AdSenseAd slot="7806397374" format="auto" fullWidthResponsive={true} />
+          <AdSenseAd slot="6768957164" format="auto" fullWidthResponsive={true} />
         </div>
       </main>
 
