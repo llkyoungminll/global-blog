@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { Suspense } from "react";
 import { getAllPosts } from "@/lib/blog";
 import AdSenseAd from "@/components/AdSenseAd";
 import BlogFilter from "@/components/BlogFilter";
@@ -60,7 +61,9 @@ export default async function BlogPage() {
           </div>
 
           {/* Blog Filter Component */}
-          <BlogFilter posts={posts} />
+          <Suspense fallback={<div className="text-center py-8">Loading...</div>}>
+            <BlogFilter posts={posts} />
+          </Suspense>
 
         </section>
 
