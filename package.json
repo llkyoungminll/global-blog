@@ -1,0 +1,48 @@
+{
+  "name": "global-blog",
+  "version": "1.0.0",
+  "private": true,
+  "description": "High-performance global blog optimized for AdSense revenue",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "analyze": "cross-env ANALYZE=true next build"
+  },
+  "dependencies": {
+    "@mdx-js/loader": "^3.0.1",
+    "@mdx-js/react": "^3.0.1",
+    "@next/mdx": "^14.2.5",
+    "@tailwindcss/typography": "^0.5.18",
+    "critters": "^0.0.23",
+    "gray-matter": "^4.0.3",
+    "next": "14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "reading-time": "^1.5.0",
+    "sharp": "^0.33.4",
+    "sitemap": "^8.0.0"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^14.2.5",
+    "@types/node": "^20.14.11",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.19",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.6",
+    "typescript": "^5.5.3"
+  },
+  "keywords": [
+    "blog",
+    "next.js",
+    "adsense",
+    "seo",
+    "global",
+    "revenue"
+  ]
+}
