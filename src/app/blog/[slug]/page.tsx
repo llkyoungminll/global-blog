@@ -118,7 +118,6 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
                     day: 'numeric' 
                   })}</time>
                   <span>•</span>
-                  <span>{post.readingTime}</span>
                 </div>
                 
                 <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-tight">
@@ -253,7 +252,6 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
                       </h3>
                       <p className="text-gray-600 text-sm mb-2">{relatedPost.excerpt}</p>
                       <div className="text-xs text-gray-500">
-                        {relatedPost.readingTime}
                       </div>
                     </article>
                   ))}

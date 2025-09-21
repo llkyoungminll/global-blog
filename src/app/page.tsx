@@ -94,8 +94,6 @@ export default function HomePage() {
                       <span>{post.category}</span>
                       <span>•</span>
                       <time>{post.date}</time>
-                      <span>•</span>
-                      <span>{post.readingTime}</span>
                     </div>
                     <h3 className="text-xl font-semibold text-gray-900 group-hover:text-primary-600 transition-colors">
                       <Link href={`/blog/${post.slug}`}>
@@ -157,18 +155,16 @@ export default function HomePage() {
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {[
-              { name: 'Business Strategy', count: '25+', icon: '💼' },
-              { name: 'Technology', count: '30+', icon: '💻' },
-              { name: 'Finance & Investment', count: '20+', icon: '💰' },
-              { name: 'Personal Development', count: '35+', icon: '🚀' },
-              { name: 'Marketing', count: '28+', icon: '📈' },
-              { name: 'Productivity', count: '22+', icon: '⚡' },
-              { name: 'Leadership', count: '18+', icon: '👑' },
-              { name: 'Innovation', count: '15+', icon: '💡' },
+              { name: 'Legal Services', count: '4+', icon: '⚖️' },
+              { name: 'Insurance & Protection', count: '8+', icon: '🛡️' },
+              { name: 'Finance & Investment', count: '3+', icon: '💰' },
+              { name: 'Business & Software', count: '6+', icon: '💼' },
+              { name: 'Technology & Software', count: '2+', icon: '💻' },
+              { name: 'Health & Insurance', count: '1+', icon: '🏥' },
             ].map((category) => (
               <Link
                 key={category.name}
-                href={`/categories/${category.name.toLowerCase().replace(/\s+/g, '-')}`}
+                href={`/blog?category=${encodeURIComponent(category.name)}`}
                 className="card text-center group hover:border-primary-300"
               >
                 <div className="text-4xl mb-3">{category.icon}</div>

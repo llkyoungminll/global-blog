@@ -119,8 +119,6 @@ export default function BlogFilter({ posts }: BlogFilterProps) {
                     {post.category}
                   </span>
                   <span>{post.date}</span>
-                  <span className="mx-2">•</span>
-                  <span>{post.readingTime}</span>
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-3 leading-tight">
                   <Link href={`/blog/${post.slug}`} className="hover:text-blue-600 transition-colors duration-200">
